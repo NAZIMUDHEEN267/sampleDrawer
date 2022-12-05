@@ -6,7 +6,7 @@ const Stack = createStackNavigator();
 const StackNavigator = () => {
     return (
         <Stack.Navigator>
-            <Stack.Screen name="Drawer" component={DrawerNavigator}/>
+            <Stack.Screen name="Drawer" component={DrawerNavigator} options={{ headerShown: false }} />
         </Stack.Navigator>
     )
 }
